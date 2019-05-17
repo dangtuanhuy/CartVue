@@ -1,15 +1,16 @@
 <template>
-  <div>
-  <h1>The Stock Component</h1>
-</div>
+	<div>
+		<b-row>
+      <b-col cols="6" md="4">
+
+      </b-col>
+    </b-row>
+	</div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style>
-
 </style>
