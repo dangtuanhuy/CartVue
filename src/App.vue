@@ -1,13 +1,13 @@
 <template>
-	<div id="app">
-		<b-container class="bv-example-row">
-			<app-header></app-header>
-			<b-row>
-				<b-col cols="12">
+	<div class="container">
+		<app-header></app-header>
+		<div class="row">
+			<div class="col-xs-12">
+				<transition name="slide" mode="out-in">
 					<router-view></router-view>
-				</b-col>
-			</b-row>
-		</b-container>
+				</transition>
+			</div>
+		</div>
 	</div>
 </template>
 
@@ -17,7 +17,7 @@ import Header from "./components/Header.vue";
 export default {
 	name: "App",
 	components: {
-    appHeader: Header,
+		appHeader: Header
 	}
 };
 </script>
@@ -31,7 +31,7 @@ export default {
 	color: #2c3e50;
 	margin-top: 60px;
 } */
-body{
-  padding: 30px;
+body {
+	padding: 30px;
 }
 </style>

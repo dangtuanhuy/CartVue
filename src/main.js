@@ -4,14 +4,14 @@ import Vue from 'vue'
 import App from './App'
 import VueRouter from 'vue-router'
 import { routes } from './router/index'
-import BootstrapVue from 'bootstrap-vue'
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
+// import BootstrapVue from 'bootstrap-vue'
+// import 'bootstrap/dist/css/bootstrap.css'
+// import 'bootstrap-vue/dist/bootstrap-vue.css'
 
  // eslint-disable-next-line
 
 Vue.use(VueRouter);
-Vue.use(BootstrapVue)
+// Vue.use(BootstrapVue)
 const router = new VueRouter({
   mode: 'history',
   routes

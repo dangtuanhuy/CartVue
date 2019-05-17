@@ -1,7 +1,7 @@
 
 import Home from '../components/Home.vue';
 import Portfolio from '../components/portfolio/Portforlio.vue';
-import Stocks from '../components/stocks/Stocks.vue'
+import Stock from '../components/stocks/Stock.vue'
 export const routes = [
   {
     path: '/',
@@ -14,7 +14,7 @@ export const routes = [
   },
   {
     path: '/stocks',
-    component: Stocks
+    component: Stock
   },
   { path: '/redirect-me', redirect: { name: 'Home' } },
 ];
